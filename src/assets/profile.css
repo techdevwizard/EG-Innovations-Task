@@ -1,0 +1,61 @@
+.welcome-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f8f9fa;
+}
+
+.welcome-card {
+    width: 100%;
+    max-width: 400px;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.user-avatar {
+    width: 80px;
+    height: 80px;
+    margin: 0 auto 20px;
+    background: linear-gradient(135deg, #4a90e2 0%, #8e44ad 100%);
+    color: white;
+    font-size: 2.5rem;
+    font-weight: bold;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.welcome-title {
+    color: #2c3e50;
+    margin-bottom: 10px;
+}
+
+.welcome-message {
+    color: #7f8c8d;
+    margin-bottom: 25px;
+}
+
+.action-button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 50px;
+    font-weight: 500;
+}
+
+.logout-button {
+    width: 100%;
+    padding: 10px;
+    border-radius: 50px;
+    font-weight: 500;
+}
+
+.logout-alert {
+    margin-top: 20px;
+    text-align: center;
+    border-radius: 50px;
+}
