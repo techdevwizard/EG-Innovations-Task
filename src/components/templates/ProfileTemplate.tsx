@@ -4,7 +4,7 @@ import { useSelector } from 'react-redux';
 import { useEffect } from 'react';
 import { getUser, logOut } from '../../action/UserAction';
 import type { RootState } from '../../store';
-import { useAppDispatch } from '../../hooks/dispatch';
+import { useAppDispatch } from '../../hooks/Dispatch';
 import { confirmPopup, successToaster } from '../../utils/swal';
 
 const ProfileTemplate = () => {

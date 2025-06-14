@@ -1,5 +1,5 @@
 import axios from 'axios';
-import type { Credentials, LoginResponse } from '../interfaces/user';
+import type { Credentials } from '../interfaces/User';
 import ImportedURL from '../config/CommonApi';
 import { errorToaster, successToaster } from '../utils/swal';
 
@@ -25,7 +25,7 @@ export function loginUser(credentials: Credentials) {
                 });
 
                 const message = error?.response?.data?.message || 'Something went wrong. Please try again.';
-                errorToaster(message); // ✅ Show error
+                errorToaster(message);
             })
     };
 }

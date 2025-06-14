@@ -4,8 +4,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import "../../assets/login.css";
 import LoginImage from '../../assets/images/World-rafiki.png';
 import { loginUser } from '../../action/UserAction';
-import { useAppDispatch } from '../../hooks/dispatch';
-import type { LoginFormData, LoginFormDataError } from '../../interfaces/user';
+import { useAppDispatch } from '../../hooks/Dispatch';
+import type { LoginFormData, LoginFormDataError } from '../../interfaces/User';
 import LoginForm from '../organisms/LoginForm';
 
 export default function LoginTemplate() {
